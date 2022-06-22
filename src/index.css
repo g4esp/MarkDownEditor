@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  @apply text-5xl leading-relaxed mb-3
+}
+h2 {
+  @apply text-4xl leading-relaxed mb-3
+}
+h3 {
+  @apply text-3xl leading-normal mb-3
+}
+h4 {
+  @apply text-2xl mb-3
+}
+h5 {
+  @apply text-xl mb-3
+}
+h6 {
+  @apply text-lg mb-3
+}
+p {
+  @apply text-base mb-3
+}
+hr {
+  @apply py-1
+}
+ol {
+  @apply list-decimal
+}
+ul {
+  @apply list-disc
+}
+ol, ul {
+  @apply list-inside ml-3
+}
+li {
+  @apply my-2
+}
+code {
+  @apply text-sm bg-slate-200 px-1 py-[2px] 
+}
+a {
+  @apply text-indigo-700
+}
+blockquote {
+  @apply italic bg-slate-200 px-1 font-extralight mx-3
+}
+blockquote b {
+  @apply font-extrabold
+}
+img[alt="favicon"] {
+  @apply max-h-7 float-left mt-4 mr-2
+}
+
+
+/**************
+
+article::-webkit-scrollbar { 
+ display: none; /* Chrome 
+}
+article { 
+  -ms-overflow-style: none;  /* IE and Edge 
+  scrollbar-width: none; /*  Firefox 
+}
+
+**************/
